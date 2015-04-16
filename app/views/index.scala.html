@@ -1,0 +1,30 @@
+@()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vendor Host Site</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootstrap/css/bootstrap.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("lib/bootswatch/united/bootstrap.css")" />
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")" />
+    <script data-main="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript" src="@routes.Assets.versioned("lib/requirejs/require.js")"></script>
+</head>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" ui-sref="home">
+                    <span class="glyphicon glyphicon-italic" aria-hidden="true"></span>Zillion Health wiget</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="enrollment">Enrollment</a></li>
+                <li><a ui-sref="enrollment">Pill widget</a></li>
+                <li><a ui-sref="enrollment">Program Documents</a></li>
+            </ul>
+        </div>
+    </nav>
+<body>
+</body>
+</html>
